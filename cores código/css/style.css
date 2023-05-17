@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#fundo {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#fundo h1 {
+    background-color: #fff;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#fundo form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+#fundo form input {
+    width: 100%;
+    text-align: center;
+    height: 30px;
+}
+
+#fundo form button {
+    margin-top: 10px;
+    height: 30px;
+    width: 20%;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#corInvalida {
+    margin-top: 10px;
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+
+}
